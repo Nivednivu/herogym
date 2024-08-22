@@ -1,0 +1,48 @@
+export const SideUp =(delay)=>(
+    {
+        hidden:{
+            opacity:0,
+            y:100,
+        },
+        visible:{
+            opacity:1,
+            y:0,
+            trasition:{
+                duration:1,
+                delay:delay
+            }
+        }
+    }
+)
+export const SideLeft =(delay)=>(
+    {
+        hidden:{
+            opacity:0,
+            x:100,
+        },
+        visible:{
+            opacity:1,
+            x:0,
+            trasition:{
+                duration:1,
+                delay:delay
+            }
+        }
+    }
+)
+export const SideRight =(delay)=>(
+    {
+        hidden:{
+            opacity:0,
+            x:-100,
+        },
+        visible:{
+            opacity:1,
+            x:0,
+            trasition:{
+                duration:0,
+                delay:delay
+            }
+        }
+    }
+)
